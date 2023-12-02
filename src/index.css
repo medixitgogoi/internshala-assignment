@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url("https://i.pinimg.com/originals/6b/95/38/6b9538cd9c9740392d3ff17ba897d4f7.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+}

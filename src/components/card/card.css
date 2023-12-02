@@ -1,0 +1,101 @@
+.cardContainer {
+  border: 1px solid rgb(156, 156, 17);
+  width: 400px;
+  height: 600px;
+  background-color: rgb(234, 203, 65);
+  cursor: pointer;
+  border-radius: 10px 60px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: black;
+  gap: 10px;
+  transition: transform 0.2s;
+  transition-timing-function: ease-in-out;
+  position: relative;
+  box-shadow: rgb(255, 255, 255) 0px 5px 15px inset;
+}
+
+.cardContainer:hover {
+  transform: scale(1.03);
+  box-shadow: rgb(255, 255, 255) 0px 5px 15px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: larger;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title > h1 {
+  line-height: 1em;
+  font-size: 1.4rem;
+}
+
+.title > h3 {
+    font-weight: 400;
+}
+
+.title > h3 >span{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.tagline {
+  margin-top: 3px;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: medium;
+  font-weight: 400;
+  height: 12em;
+  overflow: hidden;
+  line-height: 1.2em;
+}
+
+.image {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: start;
+}
+
+.image > img {
+  width: 100px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.ingredients > h2 {
+  text-align: center;
+  text-decoration: overline;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.ingredientsBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ingredient {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.ingredient > h2 {
+  font-size: 1.1rem;
+  text-decoration: underline;
+  margin-bottom: 3px;
+}
